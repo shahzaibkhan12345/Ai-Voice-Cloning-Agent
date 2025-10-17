@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+requests
+numpy
+scipy
+soundfile
+pydub
+librosa
+asyncio
+python-multipart
+PyJWT
