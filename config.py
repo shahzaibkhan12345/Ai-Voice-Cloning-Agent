@@ -29,7 +29,7 @@ class Config:
     # Speaker Embedding Model (Hugging Face Inference API for feature extraction)
     # We will use a general-purpose audio embedding model.
     # The actual embedding logic will be in core/embedding.py
-    EMBEDDING_MODEL_REPO_ID: str = "microsoft/wavlm-base-plus" # Example for robust audio feature extraction
+    EMBEDDING_MODEL_REPO_ID: str = "nvidia/speakerverification_en_titanet_large" # CHANGED THIS LINE
 
     # Security Settings
     # This should be a strong, randomly generated key in production.
